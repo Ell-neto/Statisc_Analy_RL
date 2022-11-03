@@ -1,4 +1,4 @@
-# Instruções para uso adequado do código 
+# Instruções para uso adequado do código 💻
 
 Na **Classe Opers**, temos 2 funções:  
 - Na função deltait só existe um único parâmetro:
@@ -31,11 +31,13 @@ Na **Classe GrafsIzra**, temos apenas uma função, pois é dedicado exclusivame
         glog - None (default). Caso seja True, cria um scatter do histograma + função com eixos na escala log x log.
         
 A função tem dois retornos, os parâmetros das variáveis do modelo Izrailev escolhido e uma matriz covariância (erro). Como podemos conferir abaixo os retornos para o modelo de 'Izrailev4':
-![par_error](/img/fig_param_erro.png)  
+![par_error](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig_param_erro.png)  
 E ainda plota um histograma com uma função do modelo de Izrailev escolhido caso o glog seja None.
 ![grafa1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1a.png)
 ![grafb1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2a.png)  
 E caso glog seja True, o modelo Izrailev é plotado na escala logxlog com scatter, como vemos abaixo.
 ![grafa2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1b.png)
 ![grafb2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2b.png)  
-OBS: Os gráficos da escala log são da mesma seleção de dados sem a escala log.
+OBS: Os gráficos da escala log são da mesma seleção de dados sem a escala log.  
+
+Na **Classe GrafsVar** temos quatro funções, vamos descrever cada uma:
