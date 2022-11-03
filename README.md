@@ -1,15 +1,12 @@
 # Statistical analysis of emitted intensities from random lasers: probability distribution, Parisi overlap function, and Pearson correlation coefficient
 
-[M. F. Souza-Neto](https://github.com/Ell-neto)
-
+[M. F. Souza-Neto](https://github.com/Ell-neto)  
 Laboratório de Física Teórica e Computacional, Departamento de Física, Recife, PE 50670-901, Brazil.
 
-[!I. R. R. González](ivanroaroa@gmail.com)
-
+[I. R. R. González](ivanroaroa@gmail.com)  
 Unidade Acadêmica de Belo Jardim, Universidade Federal Rural de Pernambuco, Belo Jardim, PE 55156-580, Brazil.
 
-[!E. P. Raposo](ernesto.raposo@ufpe.br)
-
+[E. P. Raposo](ernesto.raposo@ufpe.br)  
 Laboratório de Física Teórica e Computacional, Departamento de Física, Recife, PE 50670-901, Brazil.
 
 
