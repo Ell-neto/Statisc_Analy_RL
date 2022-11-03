@@ -78,17 +78,17 @@ Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o 
      
         titlez - Nome do eixo z 
         
-Para o data3, obtemos o gráfico
+Para o data3, obtemos o gráfico  
 ![graf36](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/3d_36.png)
-E ainda para outro conjunto de dados, podemos obter também
+E ainda para outro conjunto de dados, podemos obter.  
 ![gra56](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)  
 OBS: Lembrando que o espectro é configurado como 1000.
 
-- A função ht_map é um "mapa de calor" dos coeficientes das correlações de Pearson. Seus parâmetros são:
+- A função ht_map é um "mapa de calor", fazemos uso dele para os coeficientes das correlações de Pearson. Seus parâmetros são:
 
         a - Informar os dados
         
-        cmap - Escolha o colormap, disponível [aqui](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)
+        cmap - Escolha o colormap, disponível em https://matplotlib.org/stable/tutorials/colors/colormaps.html
         
         title - Título do gráfico  
 
@@ -96,3 +96,10 @@ OBS: Lembrando que o espectro é configurado como 1000.
 
         titley - Nome do eixo y
      
+Para o data3, e lembrando que fazemos uso do primeiro retorno da função mat_norm, obtemos o seguinte mapa.  
+![graf36map](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/36_mapcalor.png)  
+E ainda para outro conjunto de dados, obtemos. 
+![map47](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/mp_cal47.png)  
+
+
+*Observação final: Todos os gráficos estão ajustados para tratar com um determinado tipo de conjunto de dados, caso seus dados tenham muitas casas decimais ou sejam um conjunto enorme, deverá ajustar os dados de main.py para de acordo com o que se deseja, para mais dúvidas entrar em contato com o [autor](mailto:manoelfsneto@live.com).*
