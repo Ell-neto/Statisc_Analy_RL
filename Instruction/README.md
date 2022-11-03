@@ -1,6 +1,6 @@
 # Instruções para uso adequado do código 💻
 
-Inicialmente, as imagens abaixo são de três dados diferentes e disponíveis [aqui](https://github.com/Ell-neto/Statisc_Analy_RL/tree/master/data)
+Inicialmente, as imagens abaixo são de três dados diferentes e disponíveis [aqui](https://github.com/Ell-neto/Statisc_Analy_RL/tree/master/data). 
 No qual, por simplicidade, vamos chamar de data1 o dado [Dados_Iz](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/Dados_Iz.xlsx), de data2 o dado [2.45Pth](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/PPth245.xlsx) e de data3 o dado [3.6mJ](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/3.6mJ.xlsx).  
 
 Na **Classe Opers**, temos duas funções:  
