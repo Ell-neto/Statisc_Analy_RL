@@ -2,10 +2,12 @@
 
 Na Classe Opers, temos 2 funções:  
 - Na função deltait só existe um único parâmetro:
-        data - onde se passa os dados como arrays
+
+        data - onde se passa os dados como arrays  
 Seu retorno é um array n-dimensões normalizado por m-linhas.
 
 - Na função mat_norm, 2 parâmetros é pedido:
+
         data - onde se passa os dados como arrays
         
         med - True ou False. Caso seja True, o resultado é uma matriz normalizada com auxílio da função deltait.  
