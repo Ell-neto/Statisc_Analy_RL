@@ -34,7 +34,7 @@ Na **Classe GrafsIzra**, temos apenas uma função (fit_izra), pois é dedicado 
         
 A função tem dois retornos, os parâmetros das variáveis do modelo Izrailev escolhido e uma matriz covariância (erro). Como podemos conferir abaixo os retornos para o modelo de 'Izrailev4', e utilizamos o data1:
 ![par_error](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig_param_erro.png)  
-E ainda plota um histograma com uma função do modelo de Izrailev escolhido caso o glog seja None.
+E ainda plota um histograma com uma função do modelo de Izrailev escolhido caso o glog seja None (📊+📈).
 ![grafa1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1a.png)
 ![grafb1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2a.png)  
 E caso glog seja True, o modelo Izrailev é plotado na escala logxlog com scatter, como vemos abaixo.
@@ -43,7 +43,7 @@ E caso glog seja True, o modelo Izrailev é plotado na escala logxlog com scatte
 OBS: Os gráficos da escala log são da mesma seleção de dados sem a escala log.  
 
 Na **Classe GrafsVar** temos quatro funções, vamos descrever cada uma;
-- A função sohist, que é um histograma comum, com os parâmetros:  
+- A função sohist, que é um histograma comum 📊, com os parâmetros:  
 
         data - Informar os dados como arrays
         
@@ -55,7 +55,7 @@ Na **Classe GrafsVar** temos quatro funções, vamos descrever cada uma;
 Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o histograma de Parisi.
 ![hist_parisi](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/36_histoparisi.png)
 
-- A função varii, que nos dá uma noção da faixa de intensidade máxima nos dados, com os parâmetros:
+- A função varii, que nos dá uma noção da faixa de intensidade máxima nos dados 📈, com os parâmetros:
 
         data - Informar os dados como arrays
         
