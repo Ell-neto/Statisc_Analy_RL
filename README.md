@@ -9,8 +9,12 @@ Unidade Acadêmica de Belo Jardim, Universidade Federal Rural de Pernambuco, Bel
 [E. P. Raposo ✉️](mailto:ernesto.raposo@ufpe.br)  
 Laboratório de Física Teórica e Computacional, Departamento de Física, Recife, PE 50670-901, Brazil.
 
+&nbsp;  
 
-&nbsp;
+Por que deste projeto?
+Bem, ao analisar este projeto qualquer um poderia dizer que "sabe gerar gráfico em python e por isso não precisaria de um projeto como este", mas já adianto que não estou questionando a sua capacidade de saber gerar um gráfico. E sim que, com simples gráficos (desde histogramas até mapa de calor), e aplicando dados de lasers aleatórios obtidos no Laboratórios de Física da UFPE, podemos abstrair n-informações. Ou seja, como já diz no título, podemos analisar a distribuição de probabilidades, a sobreposição de Parisi, o coeficiente de correlação de Pearson, e até construírmos gráficos 3D para 1000 espectros de determinados dados. Tudo requer explorar os dados e ver como podemos aplicá-los!
+
+&nbsp;  
 
 **Instruções para uso! Venha cá, [venha 📜](/Instruction)!**
 
