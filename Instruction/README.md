@@ -81,6 +81,7 @@ Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o 
 Para o data3, obtemos o gráfico  
 ![graf36](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/3d_36.png)
 E ainda para outro conjunto de dados, podemos obter.  
+
 ![gra56](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)  
 OBS: Lembrando que o espectro é configurado como 1000.
 
@@ -98,7 +99,8 @@ OBS: Lembrando que o espectro é configurado como 1000.
      
 Para o data3, e lembrando que fazemos uso do primeiro retorno da função mat_norm, obtemos o seguinte mapa.  
 ![graf36map](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/36_mapcalor.png)  
-E ainda para outro conjunto de dados, obtemos. 
+
+E ainda para outro conjunto de dados, obtemos.  
 ![map47](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/mp_cal47.png)  
 
 
