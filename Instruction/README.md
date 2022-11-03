@@ -63,7 +63,7 @@ Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o 
         vall - Caso deseje ter uma faixa inicial para plotar o gráfico (muito útil para dados muito grandes)
         
         title - Título do gráfico  
- Para o data2, obtemos o gráfico abaixo.
+ Para o data2, obtemos o gráfico abaixo.  
  ![varii](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/intens_max.png)  
  
  - A função grafs_a plota um gráfico 3D, uma observação importante é que tem um retorno (colocado para saber qual faixa de intensidade está sendo utilizada no momento que gerou o gráfico), e esse retorno é um valor aleatório escolhido para as intensidades (por isso o uso do randint), e seus parâmetros são:
@@ -82,4 +82,17 @@ Para o data3, obtemos o gráfico
 ![graf36](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/3d_36.png)
 E ainda para outro conjunto de dados, podemos obter também
 ![gra56](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)  
+OBS: Lembrando que o espectro é configurado como 1000.
 
+- A função ht_map é um "mapa de calor" dos coeficientes das correlações de Pearson. Seus parâmetros são:
+
+        a - Informar os dados
+        
+        cmap - Escolha o colormap, disponível [aqui](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)
+        
+        title - Título do gráfico  
+
+        titlex - Nome do eixo x
+
+        titley - Nome do eixo y
+     
