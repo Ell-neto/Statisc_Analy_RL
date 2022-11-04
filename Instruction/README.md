@@ -2,23 +2,23 @@
 
 The plots below are from three different datasets, named data1 the [Dados_Iz](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/Dados_Iz.xlsx), data2 (for input power [2.45Pth](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/PPth245.xlsx)) and data3 (for input power [3.6mJ](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/3.6mJ.xlsx)).  
 
-Na **Classe Opers**, temos duas funções:  
-- A função deltait só existe um único parâmetro:
+In the **Class Opers**, we have two functions:  
+- In function deltait, there is only a single parameter:  
 
-        data - Informar os dados como arrays  
-Seu retorno é um array n-dimensões normalizado por m-linhas.
+        data - Please inform data as arrays  
+The return is an n-dimensional array normalized by m-lines.
 
-- A função mat_norm, dois parâmetros são pedidos:
+- In function mat_norm, two parameters must be entered:
 
-        data - Informar os dados como arrays
+        data - Please inform data as arrays
         
-        med - None (default). Caso seja True, o resultado é uma matriz normalizada com auxílio da função deltait.  
-Temos dois retornos, o primeiro que vamos denominar aqui por a e o segundo por b. O retorno a é normalizado e é utilizado para plotarmos um "mapa de calor", e o retorno b faz uso do produto escalar e serve para o "histograma de Parisi".           
+        med - None (default). If True, the outcome is a matriz normalized using the function deltait.
+We obtain two returns, the first named "a" and the second named "b". Outcome "a" is normalized and is used to plot a heatmap, whereas return "b" gives Parisi histogram.           
 
 
 Na **Classe GrafsIzra**, temos apenas uma função (fit_izra), pois é dedicado exclusivamente ao modelo Izrailev, com seus parâmetros:  
 
-        data - Informar os dados como arrays
+        data - Please inform data as arrays
         
         model - Algumas funções determinadas do modelo Izrailev, sendo as opções 'izrailev4', 'izrailev6', 'izrailev8' e izrailev10'
         
@@ -45,7 +45,7 @@ OBS: Os gráficos da escala log são da mesma seleção de dados sem a escala lo
 Na **Classe GrafsVar** temos quatro funções, vamos descrever cada uma;
 - A função sohist, que é um histograma comum 📊, com os parâmetros:  
 
-        data - Informar os dados como arrays
+        data - Please inform data as arrays
         
         density - True ou False
         
@@ -57,7 +57,7 @@ Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o 
 
 - A função varii, que nos dá uma noção da faixa de intensidade máxima nos dados 📈, com os parâmetros:
 
-        data - Informar os dados como arrays
+        data - Please inform data as arrays
         
         vall - Caso deseje ter uma faixa inicial para plotar o gráfico (muito útil para dados muito grandes)
         
@@ -67,7 +67,7 @@ Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o 
  
  - A função grafs_a plota um gráfico 3D, uma observação importante é que tem um retorno (colocado para saber qual faixa de intensidade está sendo utilizada no momento que gerou o gráfico), e esse retorno é um valor aleatório escolhido para as intensidades (por isso o uso do randint), e seus parâmetros são:
         
-        data - Informar os dados como arrays
+        data - Please inform data as arrays
         
         title - Título do gráfico  
 
@@ -86,7 +86,7 @@ OBS: Lembrando que o espectro é configurado como 1000.
 
 - A função ht_map é um "mapa de calor", fazemos uso dele para os coeficientes das correlações de Pearson. Seus parâmetros são:
 
-        a - Informar os dados
+        a - Please inform data
         
         cmap - Escolha o colormap, disponível em https://matplotlib.org/stable/tutorials/colors/colormaps.html
         
