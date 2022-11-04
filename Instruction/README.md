@@ -1,6 +1,6 @@
-# Instruções para uso adequado do código 💻
+# Instructions to use the code 💻
 
-Inicialmente, as imagens abaixo são de três dados diferentes. No qual, por simplicidade, vamos chamar de data1 o dado [Dados_Iz](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/Dados_Iz.xlsx), de data2 o dado [2.45Pth](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/PPth245.xlsx) e de data3 o dado [3.6mJ](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/3.6mJ.xlsx).  
+The plots below are from three different datasets, named data1 the [Dados_Iz](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/Dados_Iz.xlsx), data2 (for input power [2.45Pth](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/PPth245.xlsx)) and data3 (for input power [3.6mJ](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/data/3.6mJ.xlsx)).  
 
 Na **Classe Opers**, temos duas funções:  
 - A função deltait só existe um único parâmetro:
