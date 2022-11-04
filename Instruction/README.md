@@ -103,4 +103,4 @@ Using another dataset, we obtain:
 ![map47](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/mp_cal47.png)  
 
 
-* Last note: all plots are set to treat a given dataset. If your data have many figures or are too large, you should adjust main.py conveniently. In case of any doubt, do not hesitate in contacting [us✉️](mailto:manoelfsneto@live.com).*
+*Last note: all plots are set to treat a given dataset. If your data have many figures or are too large, you should adjust main.py conveniently. In case of any doubt, do not hesitate in contacting [us✉️](mailto:manoelfsneto@live.com).*
