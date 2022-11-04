@@ -43,64 +43,64 @@ If glog is True, the outcome of Izrailev model is plotted in log-log scale:
 Note: the plot in log-log scale used the same data as the plot in linear-linear scale.   
 
 In **Class GrafsVar**, we have four functions, as follows:
-- A função sohist, que é um histograma comum 📊, com os parâmetros:  
+- Function sohist, which is a standard histogram 📊, with parameters:  
 
         data - Please inform data as arrays
         
-        density - True ou False
+        density - True or False
         
-        color - Cor do histograma, usamos as cores disponíveis do matplotlib em https://matplotlib.org/stable/gallery/color/named_colors.html
+        color - Color of the histogram, using the colors available from matplotlib in https://matplotlib.org/stable/gallery/color/named_colors.html
         
-        title - Título do gráfico  
-Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o histograma de Parisi.
+        title - Plot title   
+Using data3, with the second return of function mat_norm, we plot Parisi histogram:  
 ![hist_parisi](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/36_histoparisi.png)
 
-- A função varii, que nos dá uma noção da faixa de intensidade máxima nos dados 📈, com os parâmetros:
+- Function varii, which gives an estimate of the range of maximum intensity from the data 📈, with parameters:
 
         data - Please inform data as arrays
         
-        vall - Caso deseje ter uma faixa inicial para plotar o gráfico (muito útil para dados muito grandes)
+        vall - In case one wishes to have an initial range for the plot (useful in case of very large datasets)
         
-        title - Título do gráfico  
- Para o data2, obtemos o gráfico abaixo.  
+        title - Plot title  
+ Using data2, the following plot is obtained:    
  ![varii](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/intens_max.png)  
+ Note: This function also has a return, which uses the mat_norm function to calculate it, however, the data is not with the application of deltait.
  
- - A função grafs_a plota um gráfico 3D, uma observação importante é que tem um retorno (colocado para saber qual faixa de intensidade está sendo utilizada no momento que gerou o gráfico), e esse retorno é um valor aleatório escolhido para as intensidades (por isso o uso do randint), e seus parâmetros são:
+ - Function grafs_a plots a 3D graph. It is important to note that it has an return (set to estimate the range of intensity used to generate the plot) that is a random value chosen for the intensity (using randint). The parameters are:
         
         data - Please inform data as arrays
         
-        title - Título do gráfico  
+        title - Plot title 
 
-        titlex - Nome do eixo x
+        titlex - Label of x-axis
 
-        titley - Nome do eixo y
+        titley - Label of y-axis
      
-        titlez - Nome do eixo z 
+        titlez - Label of z-axis
         
-Para o data3, obtemos o gráfico  
+Using data3, we obtain the following plot:    
 ![graf36](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/3d_36g.png)
-E ainda para outro conjunto de dados, podemos obter.  
-
+Using another dataset, we obtain:   
 ![gra56](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)  
-OBS: Lembrando que o espectro é configurado como 1000.
+Note: we recall that the spectrum number is 1000.  
 
-- A função ht_map é um "mapa de calor", fazemos uso dele para os coeficientes das correlações de Pearson. Seus parâmetros são:
+- Function ht_map provides a heatmap for the plot of Pearson correlation coeffcient. The parameters are:
 
         a - Please inform data
         
-        cmap - Escolha o colormap, disponível em https://matplotlib.org/stable/tutorials/colors/colormaps.html
+        cmap - Choose the colormap, available in https://matplotlib.org/stable/tutorials/colors/colormaps.html
         
-        title - Título do gráfico  
+        title - Plot title 
 
-        titlex - Nome do eixo x
+        titlex - Label of x-axis
 
-        titley - Nome do eixo y
+        titley - Label of y-axis
      
-Para o data3, e lembrando que fazemos uso do primeiro retorno da função mat_norm, obtemos o seguinte mapa.  
+Using data3, and recalling that we make use of the first return of function mat_norm, we obtain the heatmap:    
 ![graf36map](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/36_mapcalor.png)  
 
-E ainda para outro conjunto de dados, obtemos.  
+Using another dataset, we obtain:   
 ![map47](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/mp_cal47.png)  
 
 
-*Observação final: Todos os gráficos estão ajustados para tratar com um determinado conjunto de dados, caso seus dados tenham muitas casas decimais ou sejam um conjunto enorme (tipo, enorme mesmo (risos)), deverá ajustar os dados de main.py para de acordo com o que se deseja, levando em conta que todos os gráficos já são previamente definidos, ou seja, já tem determinados valores nos eixos, determinados valores nos conjuntos dados, e pode sim mexer com o main.py para atribuir outros casos e outros valores, isso que é divertido em computação! E para quaisquer dúvidas e/ou esclarecimento, por favor, pode entrar em contato com o [autor✉️](mailto:manoelfsneto@live.com).*
+* Last note: all plots are set to treat a given dataset. If your data have many figures or are too large, you should adjust main.py conveniently. In case of any doubt, do not hesitate in contacting [us✉️](mailto:manoelfsneto@live.com).*
