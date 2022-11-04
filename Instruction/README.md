@@ -16,31 +16,31 @@ The return is an n-dimensional array normalized by m-lines.
 We obtain two returns, the first named "a" and the second named "b". Outcome "a" is normalized and is used to plot a heatmap, whereas return "b" gives Parisi histogram.           
 
 
-Na **Classe GrafsIzra**, temos apenas uma função (fit_izra), pois é dedicado exclusivamente ao modelo Izrailev, com seus parâmetros:  
+In **Class GrafsIzra**, we have only one function (fit_izra), since it is dedicated to fits of the emittd intensities using the Izrailev PDF, with parameters::  
 
         data - Please inform data as arrays
         
-        model - Algumas funções determinadas do modelo Izrailev, sendo as opções 'izrailev4', 'izrailev6', 'izrailev8' e izrailev10'
+        model - Some functions determined from Izrailev PDF (Izrailev model), with options 'izrailev4', 'izrailev6', 'izrailev8' and 'izrailev10'
         
-        density - True ou False
+        density - True or False
         
-        color1 - Cor do histograma, usamos as cores disponíveis do matplotlib em https://matplotlib.org/stable/gallery/color/named_colors.html
+        color1 - Color of the histogram, using the colors available from matplotlib in https://matplotlib.org/stable/gallery/color/named_colors.html
         
-        color2 - Cor da função, usamos as cores disponíveis do matplotlib em https://matplotlib.org/stable/gallery/color/named_colors.html
+        color2 - Color of the function, using the colors available from matplotlib in https://matplotlib.org/stable/gallery/color/named_colors.html
         
-        title - Título do gráfico
+        title - Inform which model you chose, for example, if you chose izrailev4, just put the "4" here, which will be added to the title.
         
-        glog - None (default). Caso seja True, cria um scatter do histograma + função com eixos na escala log x log.
+        glog - None (default). If True, it creates a scatter of the histogram + function with log-log axes.
         
-A função tem dois retornos, os parâmetros das variáveis do modelo Izrailev escolhido e uma matriz covariância (erro). Como podemos conferir abaixo os retornos para o modelo de 'Izrailev4', e utilizamos o data1:
+The function has returns: the parameters of the Izrailev model and a covariance matrix (error). Below we used data1 and the model 'Izrailev4':  
 ![par_error](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/params_error.png)  
-E ainda plota um histograma com uma função do modelo de Izrailev escolhido caso o glog seja None (📊+📈).
+Here is the plot of the outcome for the Izrailev model in case glog is None (📊+📈).  
 ![grafa1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1a.png)
 ![grafb1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2a.png)  
-E caso glog seja True, o modelo Izrailev é plotado na escala logxlog com scatter, como vemos abaixo.
+If glog is True, the outcome of Izrailev model is plotted in log-log scale:  
 ![grafa2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1b.png)
 ![grafb2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2b.png)  
-OBS: Os gráficos da escala log são da mesma seleção de dados sem a escala log.  
+Note: the plot in log-log scale used the same data as the plot in linear-linear scale.    
 
 Na **Classe GrafsVar** temos quatro funções, vamos descrever cada uma;
 - A função sohist, que é um histograma comum 📊, com os parâmetros:  
