@@ -32,17 +32,17 @@ In **Class GrafsIzra**, we have only one function (fit_izra), since it is dedica
         
         glog - None (default). If True, it creates a scatter of the histogram + function with log-log axes.
         
-The function has returns: the parameters of the Izrailev model and a covariance matrix (error). Below we used data1 and the model 'Izrailev4':  
+The function has two returns: the parameters of the Izrailev model and a covariance matrix (error). Below we used data1 and the model 'Izrailev4':  
 ![par_error](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/params_error.png)  
 Here is the plot of the outcome for the Izrailev model in case glog is None (📊+📈).  
 ![grafa1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1a.png)
 ![grafb1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2a.png)  
 If glog is True, the outcome of Izrailev model is plotted in log-log scale:  
-![grafa2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1b.png)
-![grafb2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2b.png)  
-Note: the plot in log-log scale used the same data as the plot in linear-linear scale.    
+![grafa2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig1b.png)
+![grafb2](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig2b.png)  
+Note: the plot in log-log scale used the same data as the plot in linear-linear scale.   
 
-Na **Classe GrafsVar** temos quatro funções, vamos descrever cada uma;
+In **Class GrafsVar**, we have four functions, as follows:
 - A função sohist, que é um histograma comum 📊, com os parâmetros:  
 
         data - Please inform data as arrays
