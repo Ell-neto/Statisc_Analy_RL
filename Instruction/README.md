@@ -78,7 +78,7 @@ Para o data3, e fazendo uso do segundo retorno da função mat_norm, plotamos o 
         titlez - Nome do eixo z 
         
 Para o data3, obtemos o gráfico  
-![graf36](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/3d_36.png)
+![graf36](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/3d_36g.png)
 E ainda para outro conjunto de dados, podemos obter.  
 
 ![gra56](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig56.png)  
