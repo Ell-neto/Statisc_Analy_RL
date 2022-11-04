@@ -103,4 +103,4 @@ E ainda para outro conjunto de dados, obtemos.
 ![map47](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/mp_cal47.png)  
 
 
-*Observação final: Todos os gráficos estão ajustados para tratar com um determinado tipo de conjunto de dados, caso seus dados tenham muitas casas decimais ou sejam um conjunto enorme, deverá ajustar os dados de main.py para de acordo com o que se deseja, para mais dúvidas entrar em contato com o [autor](mailto:manoelfsneto@live.com).*
+*Observação final: Todos os gráficos estão ajustados para tratar com um determinado conjunto de dados, caso seus dados tenham muitas casas decimais ou sejam um conjunto enorme (tipo, enorme mesmo (risos)), deverá ajustar os dados de main.py para de acordo com o que se deseja, levando em conta que todos os gráficos já são previamente definidos, ou seja, já tem determinados valores nos eixos, determinados valores nos conjuntos dados, e pode sim mexer com o main.py para atribuir outros casos e outros valores, isso que é divertido em computação! E para quaisquer dúvidas e/ou esclarecimento, por favor, pode entrar em contato com o [autor✉️](mailto:manoelfsneto@live.com).*
