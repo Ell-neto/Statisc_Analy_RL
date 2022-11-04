@@ -33,7 +33,7 @@ Na **Classe GrafsIzra**, temos apenas uma função (fit_izra), pois é dedicado 
         glog - None (default). Caso seja True, cria um scatter do histograma + função com eixos na escala log x log.
         
 A função tem dois retornos, os parâmetros das variáveis do modelo Izrailev escolhido e uma matriz covariância (erro). Como podemos conferir abaixo os retornos para o modelo de 'Izrailev4', e utilizamos o data1:
-![par_error](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/fig_param_erro.png)  
+![par_error]()  
 E ainda plota um histograma com uma função do modelo de Izrailev escolhido caso o glog seja None (📊+📈).
 ![grafa1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_1a.png)
 ![grafb1](https://github.com/Ell-neto/Statisc_Analy_RL/blob/master/Instruction/img/Figure_2a.png)  
