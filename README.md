@@ -11,7 +11,7 @@ Laboratório de Física Teórica e Computacional, Departamento de Física, Recif
 
 &nbsp;  
 
-Aim of this project.
+Aim of this project.  
 This code is intended to perform the statistical analysis of data of intensities emitted from random lasers and similar photonic systems. The code generates the probability distribution (histogram of emitted intensities) and fits to some appropriate probability density functions (PDFs) provided in the literature (such as the generalized Izrailev PDF), Parisi overlap distribution, and Pearson correlation coefficient. The code also builds 3D plots of intensity spectra.
 
 &nbsp;  
