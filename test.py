@@ -1,50 +1,51 @@
 import pandas as pd
 import numpy as np
+from matplotlib import cm
 import Models.main as mi
 
-# dados = pd.read_excel(r"C:\Users\Manoel\Downloads\Dados_Iz.xlsx", engine="openpyxl")
-# dados = pd.read_excel(r"C:\Users\Manoel\Downloads\PPth245.xlsx", engine="openpyxl")
-dados = pd.read_excel(r"C:\Users\Manoel\Downloads\3.6mJ.xlsx", engine="openpyxl")
+# data = pd.read_excel(r"C:\Users\Manoel\Downloads\Dados_Iz.xlsx", engine="openpyxl")
+# data = pd.read_excel(r"C:\Users\Manoel\Downloads\PPth245.xlsx", engine="openpyxl")
+data = pd.read_excel(r"C:\Users\Manoel\Downloads\3.6mJ.xlsx", engine="openpyxl")
 
-dados_np = np.array(dados)
+data_np = np.array(data)
 
 
 ################# Exemplos com Dados_Iz #########################
 
-# Plotar apenas os histogramas
-# mi.GrafsVar.sohist(dados_np[:,0],True,'teal')
+# Plot only the histogram
+# mi.GrafsVar.sohist(data_np[:,0],True,'teal')
 
-# Plotar gráficos com histograma e modelo junto
-# pars, erro = mi.GrafsIzra.fit_izra(dados_np[:,5], 'izrailev4', True, 'teal', 'purple')
-# print(f"Os valores dos parâmetros são: {pars}")
-# print(f"A matriz de covariância é:\n {erro}")
+# Plot graphs with histogram and model together
+# pars, error = mi.GrafsIzra.fit_izra(data_np[:,5], 'izrailev4', True, 'teal', 'purple')
+# print(f"The parameter values are: {pars}")
+# print(f"The covariance matrix:\n {error}")
 
-# Plotar gráficos na escala log-log
-# pars, erro = mi.GrafsIzra.fit_izra(dados_np[:,14], 'izrailev4', True, 'white', 'purple', glog=True)
-# print(f"Os valores dos parâmetros são: {pars}")
-# print(f"A matriz de covariância é:\n {erro}")
+# Plot graphs on log-log scale
+# pars, error = mi.GrafsIzra.fit_izra(data_np[:,5], 'izrailev4', True, 'white', 'purple', "4", glog=True)
+# print(f"The parameter values are: {pars}")
+# print(f"A matriz de covariância é:\n {error}")
 
-# Exemplo para criar series temporais
-# No conjunto de dados, onde cada gráfico representa a 'quantidade de colunas', logo, 20 series.
+# Example for creating time series
+# In our dataset, where each graph represents the 'number of columns', so 20 series.
 # for i in range(dados_np.shape[1]):
-#     pars, erro = mi.GrafsIzra.fit_izra(dados_np[:,i], 'izrailev4', True, 'teal', 'purple')
-#     print(f"Os valores dos parâmetros da figura {i} são: {pars}")
+#     pars, error = mi.GrafsIzra.fit_izra(data_np[:,i], 'izrailev4', True, 'teal', 'purple')
+#     print(f"The values of the parameters in figure {i} are:: {pars}")
 
 
-############ Plotar com os demais dados, por exemplo, com PPth245 e 3.6mJ ####################
+############ Plot with the other data, for example with Pth245 and 3.6mJ ####################
 
-# Gráfico 3D de 1000 perfis de espectro
-# dados_dec = (dados_np.T)/10**18
-# a = mi.GrafsVar.grafs_a(dados_dec, 'Titulo do grafico', 'eixo x', 'eixo y', 'eixo z')
+# 3D graphic of 1000 spectrum profiles
+# data_dec = (data_np.T)/10**18
+# a = mi.GrafsVar.grafs_a(data_dec, cm.jet,'Graph Title', 'X axis', 'Y axis', 'Z axis')
 # print(a)
 
-# Gráfico para visualizar a intensidade máxima
-# mi.GrafsVar.varii(dados_np.T, 100)
+# Graph to view maximum intensity
+# mi.GrafsVar.varii(data_np.T,'green', 100)
 
-# O mat_norm tem 2 saídas, a saída do exemplo abaixo zz trata os dados para plotarmos um mapa de calor, o ss trata os dados para o histograma de Parisi
-# zz, ss = mi.Opers.mat_norm(dados_np.T, True)
+# The mat_norm has 2 returns, the return of the example below zz handles the data for us to plot a heat map, the ss handles the data for the Parisi histogram
+# zz, ss = mi.Opers.mat_norm(data_np.T, True)
 # mi.GrafsVar.sohist(ss,True,'teal')
 
-# Gráfico de mapa de calor do coeficiente de correlação de Pearson
+# Pearson correlation coefficient heat map plot
 # zzs = zz[450:650, 450:650]
 # mi.GrafsVar.ht_map(zzs, 'jet')
