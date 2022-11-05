@@ -59,6 +59,8 @@ Using data3, with the second return of function mat_norm, we plot Parisi histogr
 
         data - Please inform data as arrays
         
+        color - Color of the function, using the colors available from matplotlib in https://matplotlib.org/stable/gallery/color/named_colors.html
+        
         vall - In case one wishes to have an initial range for the plot (useful in case of very large datasets)
         
         title - Plot title  
@@ -69,6 +71,8 @@ Using data3, with the second return of function mat_norm, we plot Parisi histogr
  - Function grafs_a plots a 3D graph. It is important to note that it has an return (set to estimate the range of intensity used to generate the plot) that is a random value chosen for the intensity (using randint). The parameters are:
         
         data - Please inform data as arrays
+        
+        color - Choose the colormap, available in https://matplotlib.org/stable/tutorials/colors/colormaps.html
         
         title - Plot title 
 
