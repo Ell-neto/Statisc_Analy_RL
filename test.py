@@ -36,11 +36,11 @@ data_np = np.array(data)
 
 # 3D graphic of 1000 spectrum profiles
 # data_dec = (data_np.T)/10**18
-# a = mi.GrafsVar.grafs_a(data_dec, cm.jet,'Graph Title', 'X axis', 'Y axis', 'Z axis')
+# a = mi.GrafsVar.grafs_a(data_dec, cm.rainbow, 'Graph Title', 'X axis', 'Y axis', 'Z axis')
 # print(a)
 
 # Graph to view maximum intensity
-# mi.GrafsVar.varii(data_np.T,'green', 100)
+# mi.GrafsVar.varii(data_np.T,'purple', 100)
 
 # The mat_norm has 2 returns, the return of the example below zz handles the data for us to plot a heat map, the ss handles the data for the Parisi histogram
 # zz, ss = mi.Opers.mat_norm(data_np.T, True)
