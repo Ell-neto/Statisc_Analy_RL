@@ -3,7 +3,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from matplotlib import cm
 from random import randint
 from scipy.optimize import curve_fit
 
@@ -110,16 +109,16 @@ class GrafsVar(Opers):
         plt.title(title, fontsize=11, fontweight='bold', fontstyle='italic', fontfamily='serif')
         plt.show()
 
-    def varii(self, vall=None, title=''):
+    def varii(self, color, vall=None, title=''):
         ze, _ = Opers(self.data).mat_norm()
 
-        plt.plot(ze[vall, :], color='purple')
+        plt.plot(ze[vall, :], color=color)
         plt.title(title, fontsize=11, fontweight='bold', fontstyle='italic', fontfamily='serif')
         plt.show()
 
         return ze
 
-    def grafs_a(self, title='', titlex='', titley='', titlez=''):
+    def grafs_a(self, color, title='', titlex='', titley='', titlez=''):
         df = self.data
         f = df.shape[0]
         i = randint(0, df.shape[0] - 1)
@@ -129,7 +128,7 @@ class GrafsVar(Opers):
         y = np.linspace(0, 1000, diff)
         xx, yy = np.meshgrid(x, y)
         fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-        surf = ax.plot_surface(xx, yy, m1, cmap=cm.rainbow, linewidth=0.3, antialiased=False)
+        surf = ax.plot_surface(xx, yy, m1, cmap=color, linewidth=0.3, antialiased=False)
         fig.colorbar(surf, shrink=False)
 
         plt.xticks([1060, 1065, 1070])
