@@ -141,8 +141,8 @@ class GrafsVar(Opers):
         return i
 
     @staticmethod
-    def ht_map(a, cmap, title='', titlex='', titley=''):
-        dft = pd.DataFrame(a)
+    def ht_map(data, cmap, title='', titlex='', titley=''):
+        dft = pd.DataFrame(data)
         der = dft.corr()
         sns.heatmap(der, cmap=cmap, vmin=0, linecolor='red')
         plt.xticks([0, 100], [1060, 1064])
