@@ -90,7 +90,7 @@ Note: we recall that the spectrum number is 1000.
 
 - Function ht_map provides a heatmap for the plot of Pearson correlation coeffcient. The parameters are:
 
-        a - Please inform data
+        data - Please inform data
         
         cmap - Choose the colormap, available in https://matplotlib.org/stable/tutorials/colors/colormaps.html
         
